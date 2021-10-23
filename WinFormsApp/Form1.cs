@@ -17,7 +17,7 @@ namespace WinFormsApp1
 
             if (!res1 || !res2)
             {
-                MessageBox.Show("Operacja niedozwolona");
+                MessageBox.Show("Operacja niedozwolona.");
                 return;
             }
 
@@ -52,7 +52,7 @@ namespace WinFormsApp1
                     MessageBox.Show($"Wynik dzielenia to: {wynikF}");
                     break;
                 default:
-                    MessageBox.Show("Operacja niedozwolona");
+                    MessageBox.Show("Operacja niedozwolona.");
                     break;
             }
 
